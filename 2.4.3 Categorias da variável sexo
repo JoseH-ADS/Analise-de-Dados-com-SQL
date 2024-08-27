@@ -1,0 +1,1 @@
+select distinct sexo from credito;
