@@ -1,0 +1,2 @@
+select min(valor_transacoes_12m) as valor_minimo, format(avg(valor_transacoes_12m), 2) as valor_medio,
+max(valor_transacoes_12m) as valor_maximo from credito;
