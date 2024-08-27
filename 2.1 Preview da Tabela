@@ -1,0 +1,2 @@
+select * from credito
+limit 5;
