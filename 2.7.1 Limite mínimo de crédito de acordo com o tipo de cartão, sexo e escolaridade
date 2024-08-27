@@ -1,3 +1,9 @@
 select tipo_cartao, format(min(limite_credito), 2) as limite_minimo from credito
 group by 1
 order by 2;
+
+select sexo, format(min(limite_credito), 2) as limite_minimo from credito
+group by sexo;
+
+select escolaridade, format(min(limite_credito), 2) as limite_minimo from credito
+group by escolaridade;
