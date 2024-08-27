@@ -1,0 +1,3 @@
+select tipo_cartao, count(*) as qtd_clientes from credito
+group by tipo_cartao
+order by 2 desc;
