@@ -1,0 +1,1 @@
+select min(idade) as menor_idade, format(avg(idade), 0) as idade_media, max(idade) as idade_maxima from credito;
