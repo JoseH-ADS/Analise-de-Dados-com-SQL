@@ -1,0 +1,9 @@
+select tipo_cartao, round(avg(qtd_transacoes_12m)) as media_qtd_transacoes,
+format(avg(valor_transacoes_12m), 2) as media_valor_transacoes,
+format(avg(limite_credito), 2) as media_limite_credito from credito
+group by tipo_cartao;
+
+select salario_anual, round(avg(qtd_transacoes_12m)) as media_qtd_transacoes,
+format(avg(valor_transacoes_12m), 2) as media_valor_transacoes,
+format(avg(limite_credito), 2) as media_limite_credito from credito
+group by salario_anual;
