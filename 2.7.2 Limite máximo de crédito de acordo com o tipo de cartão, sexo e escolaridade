@@ -1,0 +1,8 @@
+select tipo_cartao, format(max(limite_credito), 2) as limite_maximo from credito
+group by 1;
+
+select sexo, format(max(limite_credito), 2) as limite_maximo from credito
+group by sexo;
+
+select escolaridade, format(max(limite_credito), 2) as limite_maximo from credito
+group by escolaridade;
